@@ -3,6 +3,8 @@
 ## 📋 프로젝트 개요
 URL의 피싱 여부를 판별하는 머신러닝 기반 알고리즘입니다.
 
+> **📊 데이터 출처**: 이 프로젝트는 [GregaVrbancic의 Phishing-Dataset](https://github.com/GregaVrbancic/Phishing-Dataset)을 사용합니다. 자세한 정보는 `data/README.md`를 참조하세요.
+
 ## 🏗️ 프로젝트 구조
 ```
 phishingclf/
@@ -94,4 +96,15 @@ pip install -r docs/requirements.txt
 
 ## 📝 라이선스
 이 프로젝트는 교육 및 연구 목적으로 제작되었습니다.
+
+### 📊 데이터 라이선스
+사용된 데이터셋의 라이선스는 원본 출처의 라이선스를 따릅니다. 상업적 사용을 원하는 경우 별도의 라이선스 확인이 필요할 수 있습니다.
+
+### 📚 데이터 인용
+이 프로젝트에서 사용된 데이터셋을 인용할 때는 다음 논문을 참조해주세요:
+
+```
+G. Vrbančič, I. Jr. Fister, V. Podgorelec. Datasets for Phishing Websites Detection. 
+Data in Brief, Vol. 33, 2020, DOI: 10.1016/j.dib.2020.106438
+```
 
